@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.cibertec</groupId>
+  <artifactId>Maven_LPII_Ejercicio1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>MV_Ejercicio1</name>
+  <description>Aplicacion Maven con Java</description>
+  
+  <properties>
+	  <maven.compiler.source>17</maven.compiler.source>
+	  <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+	 <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>	<!--JAR de conexion a la base de datos-->
+    	<version>8.0.33</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi</artifactId>	<!--Libreria necesaria para manipular con archivos de Microsoft office-->
+    	<version>5.4.1</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml</artifactId> <!--Libreria que proporciona clases y funcionalidades para trabajar con archivos OOXML-->
+    	<version>5.4.1</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.projectlombok</groupId>	<!--Se instala tambien en el dispositivo en el que usaremos el proyecto-->
+    	<artifactId>lombok</artifactId>	<!--Sirve para facilitar la escritura de codigo-->
+    	<version>1.18.38</version>
+	</dependency>
+	
+  </dependencies>
+</project>
